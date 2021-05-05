@@ -1,0 +1,13 @@
+[2021-05-02T13:37:49.141639000Z INFO  solana_ledger::blockstore] Maximum open file descriptors: 500000
+[2021-05-02T13:37:49.141884000Z INFO  solana_ledger::blockstore] Opening database at "test-ledger/rocksdb"
+[2021-05-02T13:37:49.188473000Z INFO  solana_ledger::blockstore] "test-ledger/rocksdb" open took 46ms
+[2021-05-02T13:37:49.193157000Z INFO  solana_metrics::metrics] metrics disabled: SOLANA_METRICS_CONFIG: environment variable not found
+[2021-05-02T13:37:49.193381000Z INFO  solana_metrics::metrics] datapoint: shred_insert_is_full total_time_ms=0i slot=0i last_index=2i
+[2021-05-02T13:37:49.240400000Z INFO  solana_runtime::hardened_unpack] Extracting "test-ledger/genesis.tar.bz2"...
+[2021-05-02T13:37:49.251946000Z INFO  solana_runtime::hardened_unpack] unpacked 10 entries total
+[2021-05-02T13:37:49.251953000Z INFO  solana_runtime::hardened_unpack] Extracted "test-ledger/genesis.tar.bz2" in 11.52725ms
+[2021-05-02T13:37:49.254607000Z WARN  solana_core::validator] identity: HR5QAfuktijiN55diHzMGsnJNV7gMxiTBxunZtyWAg2L
+[2021-05-02T13:37:49.254618000Z WARN  solana_core::validator] vote account: GcGhBQVXma8yMNDb5KJjSBkbmR2imc45XS62SDDNZyp2
+[2021-05-02T13:37:49.254773000Z WARN  solana_core::validator] authorized voter: GcGhBQVXma8yMNDb5KJjSBkbmR2imc45XS62SDDNZyp2
+[2021-05-02T13:37:49.254941000Z WARN  solana_core::validator] CUDA is disabled
+[2021-05-02T13:37:49.255107000Z ERROR solana_core::validator] Your machine does not have AVX support, please rebuild from source on your machine
